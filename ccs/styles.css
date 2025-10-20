@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family: 'Roboto', sans-serif;
+	
+}
+
+.bgverde {
+	background-color: #29b160
+}
+
+.custom-navbar {
+  background-color: #29b160; /* tu color preferido */
+	font-weight: bold; /* 👈 esto las pone en negrita */
+  transition: color 0.3s ease;
+	
+}
+
+.custom-navbar .nav-link:hover {
+  color: red !important;  /* tono más claro al pasar el mouse */
+}
+
+h1 {
+	font-weight: bold; /* 👈 esto las pone en negrita */
+}
+	
+
+.letritas {
+	color: red;
+}
+
+.colorfooter {
+	background-color: #29b160;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+.social-icon.facebook { background-color: #3b5998; }
+.social-icon.instagram { background-color: #e4405f; }
+.social-icon.tiktok { background-color: #000000; color: #fff; } /* TikTok negro */
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+.social-icon.facebook { background-color: #3b5998; }
+.social-icon.instagram { background-color: #e4405f; }
+.social-icon.twitter { background-color: #55acee; }
+.social-icon.youtube { background-color: #ff0000; }
+
+logo-navbar {
+  height: 80px;
+  margin-top: -5px; /* sube la imagen 5px */
+}
+
+.hero {
+  background-color: #ffffff !important; /* blanco puro */
+  color: red;
+  position: relative;
+	box-shadow: none !important; }
+
+
+
+.hero .hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.section-bg-light {
+  background-color: #f8f9fa;
+}
+
+.footer {
+  
+  color: black;
+}
+
+.footer a {
+  color: #ddd;
+}
+
+.mapa-container {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+
